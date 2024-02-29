@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        .books {
+            width: 40%;
+        }
+
+        .gallery {
+            width: 100%;
+            display: flex;
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: auto;
+            height: 300px;
+        }
+
+        .menu img {
+            width: auto;
+            height: 300px;
+        }
+
+        .menu {
+            width: 40%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Daily Lifestyle Site</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#gallery">Gallery</a> |
+        <a href="#menu">Menu</a>
+    </nav>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to my webpage! Join me as I expore my love for food, books and fashion.</p>
+        <img class="books" src="books.jpg" alt="Books Image">
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="#"><img src="fashion.jpg" alt="Fashion Image 1"></a>
+            <a href="#"><img src="fashion grid2.jpeg" alt="Fashion Image 2"></a>
+            <a href="#"><img src="fashion grid3.jpg" alt="Fashion Image 3"></a>
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul class="menu">
+            <li><a href="https://www.youtube.com/"><img src="food item1.jpg" alt="Food Item 1"></a></li>
+            <li><a href="https://www.youtube.com/"><img src="food item 2.jpg" alt="Food Item 2"></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank"><img src="food item3.jpg" alt="Food Item 3"></a></li>
+            <!-- Add more food items as needed -->
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
