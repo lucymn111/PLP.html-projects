@@ -1,0 +1,59 @@
+.header-styling {
+  background-color: #f4bbc9;
+  margin: 20px;
+  padding: 20px;
+}
+
+.Introduction {
+  background-color: #f7d1d8;
+  margin: 20px;
+  padding: 10px;
+}
+
+.Skills {
+  background-color: #fae6e7;
+  margin: 20px;
+  padding: 10px;
+}
+
+.skill-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-list li {
+  border: 1px solid black;
+  border-radius: 5px;
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+.Contact-Info {
+  background-color: #f7eeed;
+  padding: 10px;
+  margin: 20px;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li a {
+  text-decoration: none;
+  color: black;
+  padding: 0;
+}
+
+@media (max-width: 500px) {
+  body {
+    color: gray;
+  }
+}
+
+@media (orientation: portrait) {
+  body {
+    color: gray;
+  }
+}
